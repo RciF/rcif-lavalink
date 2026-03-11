@@ -1,0 +1,22 @@
+server:
+  port: 2333
+
+lavalink:
+  server:
+    password: "rcif123"
+    sources:
+      youtube: true
+      soundcloud: true
+      bandcamp: true
+      twitch: true
+      vimeo: true
+      http: true
+      local: false
+    bufferDurationMs: 400
+    youtubePlaylistLoadLimit: 6
+    playerUpdateInterval: 5
+
+logging:
+  level:
+    root: INFO
+    lavalink: INFO
